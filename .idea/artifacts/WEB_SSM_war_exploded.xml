@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WEB_SSM:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/WEB_SSM_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WEB_SSM" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="log4j2" />
+          <element id="library" level="application" name="MYSQL" />
+          <element id="library" level="application" name="mybatis" />
+          <element id="library" level="application" name="JSTL" />
+          <element id="library" level="application" name="DButils" />
+          <element id="library" level="application" name="C3P0" />
+          <element id="library" level="application" name="ssm" />
+          <element id="library" level="application" name="mybatis-generator-core-1.3.6" />
+          <element id="library" level="application" name="spring" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="WEB_SSM/web/Web" />
+    </root>
+  </artifact>
+</component>
